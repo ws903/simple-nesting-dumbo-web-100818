@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-
+  programmer_hash[:grace_hopper]
 
 end
 
@@ -37,6 +37,8 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+  # monopoly_with_fourth_tier.values[0][:names].values[3].values[0]
+  programmer_hash[:alan_kay].values[0]
 end
 
 def dennis_ritchies_language
@@ -55,6 +57,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+  programmer_hash[:dennis_ritchie].values[1][0]
 end
 
 def adding_matz
